@@ -118,6 +118,7 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
 `
 
 
@@ -130,13 +131,14 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    emailjs.sendForm('service_7f02g2v', 'template_elds5jf', form.current, 'Dw9Vyf64OhanLmc-J')
       .then((result) => {
         setOpen(true);
         form.current.reset();
       }, (error) => {
         console.log(error.text);
       });
+      
   }
 
 
@@ -152,7 +154,7 @@ const Contact = () => {
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
-          <ContactButton type="submit" value="Send" />
+          <ContactButton type ="submit"  value="Send" />
         </ContactForm>
         <Snackbar
           open={open}
