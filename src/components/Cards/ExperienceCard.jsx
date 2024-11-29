@@ -140,14 +140,16 @@ const Skill = styled.div`
 `;
 
 const ExperienceCard = ({ certificate }) => {
+  console.log(certificate);
+
   return (
     <Card>
       <Top>
-        <Image src={certificate.img} />
+        <Image src={certificate?.img} />
         <Body>
-          <Role>{certificate.role}</Role>
-          <Company>{certificate.company}</Company>
-          <Date>{certificate.date}</Date>
+          <Role>{certificate?.role}</Role>
+          <Company>{certificate?.company}</Company>
+          <Date>{certificate?.date}</Date>
         </Body>
       </Top>
       <Description>
@@ -166,9 +168,9 @@ const ExperienceCard = ({ certificate }) => {
           </>
         )}
       </Description>
-      {certificate.doc && (
-        <a href={certificate.doc} target='new'>
-          <Document src={certificate.doc} />
+      {certificate?.doc && (
+        <a href={certificate?.doc} target="new">
+          <Document src={certificate?.doc} />
         </a>
       )}
     </Card>

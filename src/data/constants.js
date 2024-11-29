@@ -2,10 +2,10 @@ export const Bio = {
   name: 'Sivin Viswanath',
   roles: ['Full Stack Developer', 'Programmer'],
   description:
-    "Hello, I'm Sivin a recent graduate with a strong passion for web development, particularly in the realm of the MERN stack. I'm seeking opportunities to contribute my skills and grow within a forward-thinking organization.",
+    "Hello, I'm Sivin, a Full Stack Developer with 1 year of experience. I excel in building scalable web applications using technologies like React, Next Js, NestJS, PostgreSQL, MongoDB and TypeScript, and I’m passionate about creating efficient, user-friendly solutions.",
   github: 'https://github.com/SivinViswanath',
   resume:
-    'https://drive.google.com/file/d/1EFgzZffGXcgCtQJLggejTG2-8MyGPh2H/view?usp=drive_link',
+    'https://drive.google.com/file/d/1rZUMrrU0aWZX0t7qM3YL-LmoFCtauodS/view?usp=sharing',
   linkedin: 'https://www.linkedin.com/in/sivin-viswanath-842921222/',
   twitter: 'https://twitter.com/ViswanathSivin',
   insta: 'https://www.instagram.com/sivin_viswanath/',
@@ -75,6 +75,21 @@ export const skills = [
         image:
           'https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg',
       },
+      {
+        name: 'NestJs',
+        image:
+          'https://pbs.twimg.com/profile_images/1110148780991623201/vlqCsAVP_400x400.png',
+      },
+      {
+        name: 'PostgreSQL',
+        image:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png',
+      },
+      {
+        name: 'Prisma',
+        image:
+          'https://www.datocms-assets.com/58377/1688031395-logo_on_light.svg',
+      },
     ],
   },
   {
@@ -83,7 +98,7 @@ export const skills = [
       {
         name: 'Git',
         image:
-          'https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667',
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png',
       },
       {
         name: 'GitHub',
@@ -103,7 +118,7 @@ export const skills = [
       {
         name: 'Postman',
         image:
-          'https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667',
+          'https://w7.pngwing.com/pngs/28/245/png-transparent-postman-hd-logo-thumbnail.png',
       },
     ],
   },
@@ -183,6 +198,16 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 11,
+    title: 'Studio',
+    date: 'May 2024 - Aug 2024',
+    description: 'Developed a Responsive website for a recording studio',
+    image:
+      'https://github.com/SivinViswanath/studio/blob/main/Screenshot%202024-11-29%20232609.png?raw=true',
+    tags: ['Vite', 'MongoDb', 'React'],
+    github: 'https://github.com/SivinViswanath/studio',
+  },
   {
     id: 9,
     title: 'CapesChat',
@@ -299,5 +324,33 @@ export const projects = [
       'https://github.com/SivinViswanath/calculator/blob/master/Screenshot%20(173).png?raw=true',
     tags: ['React Js', 'Javascript', 'HTML', 'CSS'],
     github: 'https://github.com/SivinViswanath/calculator',
+  },
+];
+
+export const experiences = [
+  {
+    id: 0,
+    img: 'https://media.licdn.com/dms/image/v2/D4D0BAQHcZO07aqTO2g/company-logo_200_200/company-logo_200_200/0/1719307975707/reontechnologies_logo?e=2147483647&v=beta&t=aQvPOxekio2OVytbePONF0zax9DROrAjklblIQ-g0p8',
+    role: 'Full Stack Developer',
+    company: 'Reon Technologies',
+    date: 'Dec 2023 - Present',
+    desc: 'Proficiently utilized the MERN stack (MongoDB, Express.js,React.js, Node.js) along with NestJS, PostgreSQL, TypeScript, and Next.js to build and deliver scalable web applications and ERP systems',
+    skills: [
+      'ReactJS',
+      'Redux',
+      'NodeJs',
+      'Ant Design',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'NestJs',
+      'Prisma',
+      'TypeORM',
+      'Typescript',
+      'PostgreSQL',
+      'MongoDB',
+      'Next.js',
+    ],
+    // doc: 'https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058',
   },
 ];
